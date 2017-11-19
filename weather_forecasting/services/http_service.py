@@ -12,7 +12,7 @@ def get_data(url, expiry, no_cache):
     if not no_cache:
         cached_response  =  cache.get(cache_key)
         if cached_response:    
-            return {'data': cached_response, 'status_code': 200} #if response present in cache then return it   
+            return {'data': cached_response, 'status_code': status.HTTP_200_OK} #if response present in cache then return it   
 
     r = requests.get(url)
     json_content = None
