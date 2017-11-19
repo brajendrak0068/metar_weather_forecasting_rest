@@ -4,6 +4,7 @@ import requests
 from django.core.cache import cache
 from weather_forecasting.utils import text_to_json
 from django.conf import settings
+from rest_framework import status
 
 def get_data(url, expiry, no_cache):
     cache_key  = settings.DJANGO_ENV + ':'+ url;   #append the current running env to cache key
