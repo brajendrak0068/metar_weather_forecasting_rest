@@ -16,7 +16,7 @@ def get_data(url, expiry, no_cache):
 
     r = requests.get(url)
     json_content = None
-    if r.status_code == 200:
+    if r.status_code == status.HTTP_200_OK:
         json_content = text_to_json.convert(r.content)    #convert text to dictionary
         cache.set(cache_key, json_content, timeout=expiry)  #set the final data in redis with expriry 
     else: 
