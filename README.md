@@ -1,13 +1,13 @@
 <h1>Introduction</h1> 
-json web api’s that return the latest weather info given a specific station code.
+JSON web api’s that return the latest weather info given a specific station code 
+
 <h1>Installation</h1>
+<p>install python </p>
+<p>install redis </p>
+<p>pip install -r requirements.txt</p>
+<p>python manage.py migrate </p>
 
-install python <br>
-install redis<br>
-pip install -r requirements.txt<br>
-
-
-<h1>how to run</h1> 
+<h1>Run local server</h1> 
 
 python manage.py runserver or ./manage runserver <br>
 
