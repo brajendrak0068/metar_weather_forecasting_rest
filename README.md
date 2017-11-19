@@ -11,4 +11,4 @@ pip install -r requirements.txt<br>
 
 python manage.py runserver or ./manage runserver <br>
 
-now browser at http://localhost:8000 
+now open browser at http://localhost:8000 
