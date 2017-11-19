@@ -11,4 +11,4 @@ JSON web api’s that return the latest weather info given a specific station co
 
 python manage.py runserver or ./manage runserver <br>
 
-now open browser at http://localhost:8000 
+now open browser and hit url localhost:8000/metar/info?scode=KSGS
