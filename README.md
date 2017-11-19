@@ -1,2 +1,10 @@
-# metar_weather_forecasting_rest
-Metar Weather forecasting api  
+Introduction 
+json web api’s that return the latestweather info given a specific station code.
+
+Installation
+
+install python 
+install redis
+
+finally run 
+python manage.py runserver
