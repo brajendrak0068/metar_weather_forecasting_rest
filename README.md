@@ -1,5 +1,5 @@
 <h1>Introduction</h1> 
-JSON web api’s that return the latest weather info given a specific station code 
+JSON web api’s that return the latest weather info given a specific station code,  using python with django as a rest framework.
 
 <h1>Installation</h1>
 <p>install python </p>
