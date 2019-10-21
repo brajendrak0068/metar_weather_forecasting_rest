@@ -1,6 +1,6 @@
 certifi==2017.11.5
 chardet==3.0.4
-Django==1.11.7
+Django==1.11.23
 django-redis==4.8.0
 django-rest-framework==0.1.0
 djangorestframework==3.7.3
