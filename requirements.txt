@@ -9,4 +9,4 @@ metar==1.5.0
 pytz==2017.3
 redis==2.10.6
 requests==2.18.4
-urllib3==1.22
+urllib3==1.26.5
